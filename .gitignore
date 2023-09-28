@@ -1,0 +1,41 @@
+.DS_Store
+node_modules
+/dist
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# lock files
+yarn.lock
+package-lock.json
+# pnpm-lock.yaml
+*.lock
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+#rar
+*.rar
+*.zip
+*.tar
+*.gz
+*.7z
+
+# vitepress build output
+.vitepress/dist
+.vitepress/cache
+/docs/.vitepress/cache

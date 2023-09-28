@@ -1,0 +1,50 @@
+.DS_Store
+node_modules
+/dist
+/public
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# lock files
+yarn.lock
+package-lock.json
+*.lock
+
+# yarn3 igonre
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.min.js
+
+#rar
+*.rar
+*.zip
+*.tar
+*.gz
+*.7z
+
+#image
+*.png
+*.jpeg
